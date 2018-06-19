@@ -1,0 +1,41 @@
+.headerBG {
+    background-color:#379683;
+    color:#8fc6b9;
+}
+.searchBG {
+    background-color:#97E2D3;
+}
+.submitBG {
+    background-color:#246356; 
+    color:white;
+}
+.bodyBG {
+    background-color:white;
+}
+.parentBG {
+    background-color:#379683; 
+    color:white;
+}
+.childBG {
+    background-color:#70A79C; 
+    color:#246356;
+    font-weight: bold;
+}
+.iconDark {
+    color: #379683;
+}
+.greyBG {
+    background-color: #f7f7f7;
+}
+ul {
+    position: relative
+}
+li {
+    list-style: none;
+}
+svg{
+    z-index: 1;
+}
+.popover-header {
+    text-align: center;
+}
