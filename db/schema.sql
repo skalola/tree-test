@@ -1,6 +1,6 @@
-CREATE DATABASE tree_db;
+CREATE DATABASE qziykso7n4bw0u6d;
 
-USE tree_db;
+USE qziykso7n4bw0u6d;
 
 CREATE TABLE branches
 (

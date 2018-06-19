@@ -10,7 +10,7 @@ else{
         host: process.env.HOST,
         user: process.env.DB_USER,
         password: process.env.DB_PASS,
-        database: "tree_db"
+        database: "qziykso7n4bw0u6d"
     });
 };
 connection.connect(function(err){
