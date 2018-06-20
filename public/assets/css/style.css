@@ -1,5 +1,5 @@
 .headerBG {
-    background-color:#379683;
+    background-color:#202141;
     color:#8fc6b9;
 }
 .searchBG {
@@ -13,16 +13,16 @@
     background-color:white;
 }
 .parentBG {
-    background-color:#379683; 
+    background-color:#202141; 
     color:white;
 }
 .childBG {
-    background-color:#70A79C; 
+    background-color:#fc585b; 
     color:#246356;
     font-weight: bold;
 }
 .iconDark {
-    color: #379683;
+    color: #202141;
 }
 .greyBG {
     background-color: #f7f7f7;

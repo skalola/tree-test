@@ -6,20 +6,20 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Tree Viewer</title>
+        <title>Tree View</title>
         <script src="/socket.io/socket.io.js"></script>
     </head>
     <body class="bodyBG">
         <div class="jumbotron headerBG rounded-0 mb-0">
-            <div class="text-center"><h1 class="display-4 d-inline" data-toggle="tooltip" title="How do trees access the internet?" data-placement="left">Tree Viewer</h1> <h1 class="display-4 d-inline" data-toggle="tooltip" title="They log on." data-placement="bottom"> <i class="fas fa-tree"></i></h1></div>
+            <div class="text-center"><h1 class="display-4 d-inline">Tree Test</h1> <h1 class="display-4 d-inline"> <i class="fas fa-tree"></i></h1></div>
         </div>
         <div>
-            <div id="missingBranchName" style="display:none;" class="alert alert-warning alert-dismissible fade show rounded-0 mb-0" role="alert">I'm going to go out on a <strong>limb</strong> here and say you forgot your branch name. Fill out the fields below!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-            <div id="duplicateBranchName" style="display:none;" class="alert alert-warning alert-dismissible fade show rounded-0 mb-0" role="alert">Unfortunately, that's a very <strong>poplar</strong> name. Please enter a branch name that has <strong>knot</strong> been used before.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+            <div id="missingBranchName" style="display:none;" class="alert alert-warning alert-dismissible fade show rounded-0 mb-0" role="alert">The branch name is <strong>missing</strong>. Please fill out all fields below!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+            <div id="duplicateBranchName" style="display:none;" class="alert alert-warning alert-dismissible fade show rounded-0 mb-0" role="alert">Unfortunately, that name is <strong>taken</strong>. Please enter a branch name that has <strong>not</strong> been used before.<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
         </div>
         <div class="searchBG form-inline">
             <div class="input-group my-2 ml-4">
-                <input id="inputNode" type="text" onkeyup="validateInput(this)" class="form-control" placeholder="Enter Branch Name" data-toggle="tooltip" title="Enter a name for your new branch here.">
+                <input id="inputNode" type="text" onkeyup="validateInput(this)" class="form-control" placeholder="Enter Branch Name" data-toggle="tooltip" title="Enter a branch name here.">
                 <div class="input-group-append"><button id="branchSubmit" class="btn submitBG">Submit</button></div>
             </div>
         </div> 
