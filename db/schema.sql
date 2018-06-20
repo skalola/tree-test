@@ -10,7 +10,7 @@ CREATE TABLE branches
     branch_range_end int,
     children int,
     create_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    modify_timestamp TIMESTAMP DEFAULT 0 ON UPDATE CURRENT_TIMESTAMP,
+    modify_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 	PRIMARY KEY (branch_id)
 );
 
