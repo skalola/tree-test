@@ -1,12 +1,12 @@
 .headerBG {
     background-color:#202141;
-    color:#8fc6b9;
+    color:#fff;
 }
 .searchBG {
-    background-color:#97E2D3;
+    background-color:#D3D3D3;
 }
 .submitBG {
-    background-color:#246356; 
+    background-color:#202141; 
     color:white;
 }
 .bodyBG {
@@ -17,8 +17,8 @@
     color:white;
 }
 .childBG {
-    background-color:#fc585b; 
-    color:#246356;
+    background-color:#FC585B; 
+    color:#FFF;
     font-weight: bold;
 }
 .iconDark {
